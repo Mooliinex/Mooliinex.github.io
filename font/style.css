@@ -1,8 +1,7 @@
 :root {
-    --color1: #00e7ff;
-    --color2: #f38ae5;
+    --color1: #72C4BF;
+    --color2: #72C4BF;
 }
-
 @font-face {
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
@@ -20,7 +19,7 @@
     box-shadow: -5px -5px 5px -5px var(--color1), 5px 5px 5px -5px var(--color2), -7px -7px 10px -5px transparent, 7px 7px 10px -5px transparent, 0 0 5px 0px rgba(255, 255, 255, 0), 0 55px 35px -20px rgba(0, 0, 0, 0.5);
     transition: transform 0.5s ease, box-shadow 0.2s ease;
     will-change: transform, filter;
-    background-color: #040712;
+    background-color: #72C4BF;
     background-image: var(--front);
     background-size: cover;
     background-repeat: no-repeat;
@@ -189,28 +188,27 @@
 html {
     transform: translate3d(0, 0, 0.1px);
     background-image: url("bg_terrabyte.png");
-
+}
+header{
+    position: relative;
+    background-color: rgba(0,0,0,0);
 }
 body {
-    color: white;
-    margin: 0 10%;
+    color: #213D91;
+    margin: 0 5%;
     background-color: #72C4BF;
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 20px;
+    position: relative;
+
 }
 h1 {
     display: block;
 }
-p {
-    font-family: 'Nunito', sans-serif;
-    margin-top: 5px;
-    font-weight: 200;
-    text-shadow: 1px 1px 2px black;
-}
-#app {
-    position: relative;
-}
+
+
+
 .cards {
     display: flex;
     flex-direction: column;
@@ -249,19 +247,25 @@ p {
 
 .intro-title {
     font-family: 'Nunito', sans-serif;
-    color: #1bc16e;
+    color: #213D91;
     font-size: 34px;
     margin-bottom: 15px;
-    text-shadow: 1px 1px 2px black;
 }
 .intro-text {
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    color: #c8c6c7;
+    color: #213D91;
     font-size: 16px;
     line-height: 22px;
     display: none;
-    text-shadow: 1px 1px 2px black;
+}
+p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin  : 0 60px;
+    padding: 0px;
+
 }
 
 .logo {
